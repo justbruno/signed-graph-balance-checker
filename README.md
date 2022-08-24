@@ -17,8 +17,7 @@ Here are the results of a little experiment to test the efficiency of the algori
 
 For $n \in \\{128, 256, \dots, 4096\\}$ I generated 10 connected (disconnected samples were skipped) Erdős–Rényi $G(n,p)$ graphs with $p=1/10$. I ran my algorithm and a naive (though not too inefficient) implementation of BFS to determine balance. Average running times with st. devs. are shown below.
 
-![Results](results.png)
 
-Linear scale             |  log-log scale
+Linear scale             |  log scale
 :-------------------------:|:-------------------------:
-![](results.png)  |  ![](loglog_results.png)
+![](results.png)  |  ![](log_results.png)
