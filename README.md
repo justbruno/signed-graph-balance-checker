@@ -19,7 +19,7 @@ Signed graphs in the wild will often be heavily imbalanced, and a BFS can stop e
 
 Here are the results of a little experiment to test the efficiency of the algorithm.
 
-For $n \in \\{128, 256, \dots, 4096\\}$ I generated 10 connected (disconnected samples were skipped) Erdős–Rényi $G(n,p)$ graphs with $p=1/10$. I ran my algorithm and a naive (though not too inefficient) implementation of BFS to determine balance. Average running times with st. devs. are shown in the plot above.
+For $n \in \\{128, 256, \dots, 4096\\}$ I generated 10 connected (disconnected samples were skipped) Erdős–Rényi $G(n,p)$ graphs with $p=1/10$. I ran my algorithm and a naive (though not too inefficient) implementation of BFS to determine balance. Average running times with st. devs. are shown in the plots above.
 
 The log-scale plot on the right suggests that the complexity of both algorithms is bounded by a polynomial of the same degree. However, in practical terms, the proposed algorithm is about 100 times faster.
 
