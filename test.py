@@ -4,7 +4,7 @@ import balance as bal
 import time
 import utils
 
-is_balanced = bal.is_balanced_sparse
+is_balanced = bal.is_balanced
 
 def run_basic_test(A, balanced, name):
     print()
