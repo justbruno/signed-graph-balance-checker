@@ -3,7 +3,7 @@ A fast algorithm to check if a signed graph is balanced.
 
 Linear scale             |  log scale
 :-------------------------:|:-------------------------:
-![](results.png)  |  ![](log_results.png)
+![](images/results.png)  |  ![](images/log_results.png)
 
 A signed graph is one whose edges are labeled with a positive or a negative sign.
 
